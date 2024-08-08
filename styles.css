@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#search-container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+#search-box {
+    width: 100%;           /* 宽度保持不变 */
+    padding: 20px;         /* 根据需要调整内边距 */
+    font-size: 24px;       /* 字体大小保持不变 */
+    margin-bottom: 15px;   /* 底部外边距保持不变 */
+    height: 30px;          /* 修改高度为30px */
+    border-color: blue;          /* 边框颜色设置为蓝色 */
+    border-width: 3px;           /* 边框宽度设置为3px */
+    border-style: solid;         /* 边框样式设置为实线 */
+    border-radius: 5px;          /* 如果需要圆角边框，可以添加这个属性 */
+}
+
+button {
+    padding: 18px 35px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: block;
+    margin-left: 0;
+    width: 20%;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#result p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#result ul {
+    list-style-type: none;
+}
+
+#result li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.qrcode-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* 单个二维码项目样式 */
+.qrcode-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px; /* 根据需要调整间距 */
+}
+
+/* 二维码图片样式 */
+.qrcode-image {
+    max-width: 300px; /* 根据需要调整最大宽度 */
+    width: 100%;
+    height: auto; /* 保持图片宽高比 */
+    margin-top: 10px; /* 标题和图片之间的间距 */
+}
